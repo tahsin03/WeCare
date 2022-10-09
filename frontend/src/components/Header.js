@@ -12,12 +12,12 @@ const Header = () => {
             <div className="col-md-6 d-flex align-items-center display-none">
               <p>+8801643394355</p>
               <p>wecare@info.com</p>
-              <ul>
+              {/* <ul>
                 <li><a href="#">HOME</a></li>
                 <li><a href="#">OWNERSHIP</a></li>
                 <li><a href="#">VETERINARY</a></li>
                 <li><a href="#">TRACK</a></li>
-              </ul>
+              </ul> */}
             </div>
             {/* <div className=" col-12 col-lg-6 justify-content-center justify-content-lg-end d-flex align-items-center">
               <Link to="">
