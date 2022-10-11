@@ -1,8 +1,10 @@
 import express from 'express';
 import products from "./data/Products.js"
 import dotenv from "dotenv";
+import connectDatabase from "./config/MongoDB.js";
 
-dotenv.config()
+dotenv.config();
+connectDatabase();
 
 const app = express();
 
