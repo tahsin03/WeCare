@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="footer">
-      <div className="justify-content-center d-flex">
+      {/* <div className="justify-content-center d-flex">
         <div className="card-name">
           <img
             alt="mastercard"
@@ -34,7 +34,7 @@ const Footer = () => {
             src="https://icons-for-free.com/iconfiles/png/512/cash+checkout+discover+network+online+shopping+payment+method-1320191225548835050.png"
           />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

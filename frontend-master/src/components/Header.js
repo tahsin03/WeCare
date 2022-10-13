@@ -13,9 +13,21 @@ const Header = () => {
               <p>+8801643394355</p>
               <p>wecare@info.com</p>
               <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">OWNERSHIP</a></li>
-                <li><a href="#">VETERINARY</a></li>
+                <li>
+                  <Link to="/">
+                    <a href="#">HOME</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/ownership">
+                      <a href="#">OWNERSHIP</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/telemedicine">
+                      <a href="#">VETERINARY</a>
+                  </Link>
+                </li>
                 <li><a href="#">TRACK</a></li>
               </ul>
             </div>
